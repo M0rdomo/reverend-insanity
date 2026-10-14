@@ -1,0 +1,361 @@
+{
+  "id": "reverend-insanity",
+  "title": "Reverend Insanity RPG",
+  "description": "Reverend Insanity RPG — Português / English. Mortal Ranks 1–5; six books, compendiums, and regional maps.",
+  "version": "1.4.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Campanha Reverend Insanity RPG"
+    }
+  ],
+  "esmodules": [
+    "scripts/system.mjs"
+  ],
+  "styles": [
+    "styles/reverend.css",
+    "styles/book.css"
+  ],
+  "languages": [],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "beast": {},
+      "organization": {}
+    },
+    "Item": {
+      "gu": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "equipment": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "material": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "recipe": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "manual": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "technique": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "condition": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "lineage": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "dao": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "gu",
+      "label": "Gu — catálogo mortal",
+      "path": "packs/gu",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Livros e regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipamentos",
+      "label": "Equipamentos e provisões",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "materiais",
+      "label": "Materiais e recursos",
+      "path": "packs/materiais",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "receitas",
+      "label": "Alquimia e forja — receitas",
+      "path": "packs/receitas",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiario",
+      "label": "Bestiário mortal",
+      "path": "packs/bestiario",
+      "type": "Actor",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "manuais",
+      "label": "Manuais e técnicas",
+      "path": "packs/manuais",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "povos",
+      "label": "Povos e caminhos",
+      "path": "packs/povos",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "personagens",
+      "label": "Personagens prontos",
+      "path": "packs/personagens",
+      "type": "Actor",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "atlas",
+      "label": "Atlas e aventura",
+      "path": "packs/atlas",
+      "type": "JournalEntry",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "estados",
+      "label": "Estados e tratamento",
+      "path": "packs/estados",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cenas",
+      "label": "Cenas — Mundo e regiões",
+      "path": "packs/cenas",
+      "type": "Scene",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gu-en",
+      "label": "Gu — Mortal Catalog [EN]",
+      "path": "packs/gu-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras-en",
+      "label": "Books and Rules [EN]",
+      "path": "packs/regras-en",
+      "type": "JournalEntry",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipamentos-en",
+      "label": "Equipment and Provisions [EN]",
+      "path": "packs/equipamentos-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "materiais-en",
+      "label": "Materials and Resources [EN]",
+      "path": "packs/materiais-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "receitas-en",
+      "label": "Recipes and Formulas [EN]",
+      "path": "packs/receitas-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiario-en",
+      "label": "Mortal Bestiary [EN]",
+      "path": "packs/bestiario-en",
+      "type": "Actor",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "manuais-en",
+      "label": "Manuals and Techniques [EN]",
+      "path": "packs/manuais-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "povos-en",
+      "label": "Peoples and Paths [EN]",
+      "path": "packs/povos-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "personagens-en",
+      "label": "Ready-made Characters [EN]",
+      "path": "packs/personagens-en",
+      "type": "Actor",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "atlas-en",
+      "label": "Atlas and Adventure [EN]",
+      "path": "packs/atlas-en",
+      "type": "JournalEntry",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "estados-en",
+      "label": "Conditions and Treatment [EN]",
+      "path": "packs/estados-en",
+      "type": "Item",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cenas-en",
+      "label": "Scenes — World and Regions [EN]",
+      "path": "packs/cenas-en",
+      "type": "Scene",
+      "system": "reverend-insanity",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "primaryTokenAttribute": "life",
+  "secondaryTokenAttribute": "apertures.primary",
+  "grid": {
+    "distance": 2,
+    "units": "m"
+  },
+  "background": "systems/reverend-insanity/assets/world-cover.png",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/reverend-insanity/assets/world-cover.png",
+      "caption": "Reverend Insanity RPG"
+    }
+  ],
+  "url": "https://github.com/M0rdomo/reverend-insanity",
+  "manifest": "https://github.com/M0rdomo/reverend-insanity/releases/latest/download/system.json",
+  "download": "https://github.com/M0rdomo/reverend-insanity/releases/download/v1.4.0/reverend-insanity.zip"
+}

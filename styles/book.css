@@ -1,0 +1,64 @@
+/* Book-inspired paper, ink and cinnabar. All fields remain native and editable. */
+.reverend{--rv-bg:#eee6d6;--rv-panel:#f4eddf;--rv-line:#9c8b70;--rv-ink:#221b16;--rv-muted:#605346;--rv-jade:#793029;--rv-gold:#74241d;--color-text-primary:#221b16;--color-text-secondary:#605346;--color-text-emphatic:#221b16;--color-form-label:#605346;--color-form-label-hover:#74241d;border:3px double #746147;box-shadow:0 5px 28px #0009;border-radius:3px}
+.reverend .window-header{background:#201d18;color:#f5ecd9;border-bottom:2px solid #907650}
+.reverend .window-header button{color:#eee5d3;background:transparent;border:0}
+.reverend .window-content,.reverend .rv-body{background:radial-gradient(ellipse at 75% 30%,#fff8e866,transparent 70%),repeating-linear-gradient(8deg,#89734c03 0 1px,transparent 1px 5px),#eee6d6}
+.reverend .rv-header,.reverend .rv-beast-header,.reverend .rv-organization-header{background:radial-gradient(ellipse at 20% 15%,#fcf8ef,transparent 80%),#e8deca;border-bottom:3px double #7c6042;padding:18px 24px 16px}
+.reverend .rv-portrait img{border:4px double #342a21;outline:1px solid #9c8562;outline-offset:3px;border-radius:1px;background:#e8deca;box-shadow:5px 4px 0 #30231c19}
+.reverend .rv-portrait span{font-size:8px;letter-spacing:1px;color:#74241d;font-weight:bold;margin-top:9px}
+.reverend .rv-eyebrow{color:#74241d;font-weight:bold;letter-spacing:1.7px}
+.reverend .rv-identity .rv-name{font:small-caps bold 29px Georgia,serif;background:transparent;color:#251b16;border:0;border-bottom:1px solid #7c6042;border-radius:0}
+.reverend .rv-identity p,.reverend .rv-rank,.reverend .rv-resources>small{color:#564634}
+.reverend .rv-rank strong{color:#74241d}
+.reverend input,.reverend select,.reverend textarea{color:#251c16;background:#fffcf461;border:1px solid #ab997b;border-bottom-color:#756044;border-radius:1px;font-family:Georgia,'Times New Roman',serif;font-size:14px;min-height:32px}
+.reverend select option{color:#251c16;background:#f5eddf}
+.reverend input:focus,.reverend select:focus,.reverend textarea:focus{outline:2px solid #8c4539;background:#fffaf0}
+.reverend input:disabled,.reverend textarea:disabled{opacity:1;background:#ede4d466;color:#5c5041}
+.reverend button{background:#f3ead8;color:#38291d;border-color:#a58a64;border-radius:2px}
+.reverend button:hover,.reverend button:focus-visible{background:#e2cfad;border-color:#74241d;outline-color:#74241d;color:#531b17}
+.reverend .rv-tabs{background:#e3d7bf;border-top:1px solid #fffcf0;border-bottom:3px double #9d815b;gap:18px;padding:9px 16px}
+.reverend .rv-tabs button{background:transparent;border:1px solid transparent;color:#524332;width:45px;height:39px;border-radius:1px}
+.reverend .rv-tabs button.active{background:#74241d;color:#fff4df;border:1px solid #47130f;box-shadow:inset 0 0 0 2px #af8872}
+.reverend .rv-tabs button.active:after{background:#74241d}
+.reverend .rv-body{padding:18px 24px 0;scrollbar-color:#917856 #e9ddc5}
+.reverend .rv-page-title{border-bottom:1px solid #9c8562;margin-bottom:18px}
+.reverend h2{font-variant:small-caps;font-size:24px;color:#3a241b}
+.reverend .rv-card{background:#fbf5e9a8;border:1px solid #967f5c;border-radius:2px;padding:17px 16px 14px;margin-bottom:18px;box-shadow:inset 0 0 0 3px #f9f2e6}
+.reverend .rv-card>h3,.reverend .rv-profile-identities>div>h3{color:#fff4df;background:linear-gradient(91deg,#23150e,#681d16 40%,#36190f 92%,transparent);font:small-caps 19px Georgia,serif;text-align:left;padding:5px 13px;margin:-9px -7px 14px;clip-path:polygon(0 13%,4% 7%,11% 11%,20% 1%,34% 8%,53% 0,81% 8%,97% 1%,100% 17%,98% 39%,100% 71%,96% 79%,98% 94%,73% 90%,52% 100%,31% 91%,7% 97%,1% 83%,3% 49%)}
+.reverend .rv-field>span{color:#47392a;font-variant:small-caps;font-weight:bold;font-size:13px}
+.reverend .rv-field textarea{min-height:66px;line-height:1.45}
+.reverend .rv-resource label{color:#291c16;font-variant:small-caps;font-weight:bold}
+.reverend .rv-resource label>span{color:#564634}
+.reverend .rv-meter{background:#cabea6;border-radius:0;height:5px}.reverend .rv-meter span{background:#8b211d}.reverend .essence .rv-meter span{background:#426453}
+.reverend .rv-attributes{gap:12px}.reverend .rv-stat{background:#e9ddc7;border:1px solid #ad9875;border-radius:1px}.reverend .rv-stat button{background:transparent;color:#3b291e;border:0}
+.reverend .rv-stat input{color:#74241d;background:#fff9ed;border-color:#9e8561}
+.reverend .rv-skill{border-color:#b4a183}.reverend .rv-skill button{background:transparent;color:#37291e}
+.reverend .rv-item,.reverend .rv-effect{border-color:#baaa90}.reverend .rv-item img{background:#493c2b;border-radius:2px}.reverend .rv-item-name{background:transparent;border:0;color:#36251b}
+.reverend .rv-empty,.reverend .rv-hint,.reverend footer{color:#695740}.reverend .rv-description a{color:#782a1f}
+.reverend .rv-item-header{background:#e7dbc4;border-bottom:3px double #8b704b}.reverend .rv-item-header img{background:#352b20}
+.reverend .rv-profile-identities{display:grid;grid-template-columns:1fr 1.5fr;gap:22px;padding:8px 0 14px;border-bottom:1px solid #b4a183;margin-bottom:12px}
+.reverend .rv-profile-identities>div{min-width:0;padding:8px}.reverend .rv-profile-identities>div>h3{margin:0 0 12px;font-size:18px}
+.reverend .rv-emblems{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start;min-height:110px;margin-bottom:9px}
+.reverend .rv-identity-tile{position:relative;max-width:170px;flex:1 1 115px;text-align:center}
+.reverend .rv-emblem{display:flex;flex-direction:column;width:100%;background:transparent;border:0;padding:3px 5px 8px;font-family:Georgia,serif}
+.reverend .rv-emblem img{width:60px;height:60px;padding:10px;background:radial-gradient(#654c31,#2e251c);border:4px double #a68b5c;border-radius:50%;box-shadow:0 2px 4px #39281740;object-fit:contain}
+.reverend .rv-emblem strong{font-size:15px;color:#442a1d}.reverend .rv-emblem small{font-size:11px;color:#6b5942}
+.reverend .rv-tile-actions{display:flex;justify-content:center;gap:5px}.reverend .rv-tile-actions button{padding:2px 6px;min-height:22px;font-size:10px;background:transparent}
+.reverend .rv-bonus-note{display:flex;justify-content:space-between;gap:10px;align-items:center;font:12px Georgia,serif;color:#6d5940;margin-bottom:20px}
+.reverend .rv-profile-details{padding:12px;border-top:1px solid #b39e7b}.reverend .rv-profile-details summary{font:small-caps 17px Georgia,serif;color:#6e261d}
+.reverend .rv-body:after{content:'';display:block;height:125px;margin:18px -24px 0;background-image:url('../assets/book/character-page.png');background-size:100% auto;background-position:center bottom;pointer-events:none;opacity:.82;mask-image:linear-gradient(transparent,#000 26%)}
+.reverend .rv-grid{gap:10px 18px}.reverend .rv-profile-details[open]{margin-bottom:12px}
+.reverend .rv-emblem{height:auto!important;min-height:114px;line-height:1.3;gap:5px;overflow:visible}
+.reverend .rv-emblems{min-height:0;margin-bottom:6px}
+.reverend .rv-profile-identities{gap:22px;padding-top:0;padding-bottom:10px}
+.reverend .rv-tile-actions button{height:23px;line-height:1;min-height:23px}
+.reverend .rv-header{position:relative;isolation:isolate}
+.reverend .rv-header:before{content:'';position:absolute;inset:0;z-index:-1;background:url('../assets/book/character-page.png') center bottom/100% auto;opacity:.09;pointer-events:none}
+.reverend .rv-header{padding:14px 24px;grid-template-columns:112px 1fr 232px}
+.reverend .rv-portrait img{width:102px;height:112px}
+.reverend .rv-tabs{padding:6px 16px}
+.reverend .rv-emblem{min-height:100px;gap:4px}
+.reverend .rv-emblem img{width:52px;height:52px;padding:8px}
+.reverend .rv-tile-actions{position:absolute;top:0;right:0}
+.reverend .rv-organization-header{grid-template-columns:112px 1fr}
+@media(max-width:780px){.reverend .rv-tabs{gap:10px}.reverend .rv-profile-identities{gap:10px}.reverend .rv-header{padding:14px;gap:15px}.reverend .rv-body{padding:15px}.reverend .rv-body:after{margin:18px -15px 0}}

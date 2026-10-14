@@ -1,0 +1,308 @@
+[
+  {
+    "_id": "e9805e994fbb3b05",
+    "name": "Mundo — Cinco Regiões",
+    "active": false,
+    "navigation": true,
+    "navOrder": 0,
+    "width": 1536,
+    "height": 1024,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": ""
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "Mundo — Cinco Regiões",
+        "background": {
+          "src": "systems/reverend-insanity/assets/maps/01_cinco_regioes.png"
+        }
+      }
+    ],
+    "thumb": "systems/reverend-insanity/assets/maps/01_cinco_regioes.png",
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "reverend-insanity": {
+        "atlasScene": "01_cinco_regioes"
+      }
+    },
+    "notes": [],
+    "tokens": [],
+    "_stats": {
+      "coreVersion": "14.368",
+      "systemId": "reverend-insanity",
+      "systemVersion": "1.1.0"
+    }
+  },
+  {
+    "_id": "9ed1f16c8dadb7c4",
+    "name": "Fronteira Sul",
+    "active": false,
+    "navigation": true,
+    "navOrder": 1,
+    "width": 1536,
+    "height": 1024,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": ""
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "Fronteira Sul",
+        "background": {
+          "src": "systems/reverend-insanity/assets/maps/02_fronteira_sul.png"
+        }
+      }
+    ],
+    "thumb": "systems/reverend-insanity/assets/maps/02_fronteira_sul.png",
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "reverend-insanity": {
+        "atlasScene": "02_fronteira_sul"
+      }
+    },
+    "notes": [],
+    "tokens": [],
+    "_stats": {
+      "coreVersion": "14.368",
+      "systemId": "reverend-insanity",
+      "systemVersion": "1.1.0"
+    }
+  },
+  {
+    "_id": "4bf368be2a509314",
+    "name": "Planícies do Norte",
+    "active": false,
+    "navigation": true,
+    "navOrder": 2,
+    "width": 1536,
+    "height": 1024,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": ""
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "Planícies do Norte",
+        "background": {
+          "src": "systems/reverend-insanity/assets/maps/03_planicies_norte.png"
+        }
+      }
+    ],
+    "thumb": "systems/reverend-insanity/assets/maps/03_planicies_norte.png",
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "reverend-insanity": {
+        "atlasScene": "03_planicies_norte"
+      }
+    },
+    "notes": [],
+    "tokens": [],
+    "_stats": {
+      "coreVersion": "14.368",
+      "systemId": "reverend-insanity",
+      "systemVersion": "1.1.0"
+    }
+  },
+  {
+    "_id": "bf5dd87b26ec0303",
+    "name": "Deserto Ocidental",
+    "active": false,
+    "navigation": true,
+    "navOrder": 3,
+    "width": 1536,
+    "height": 1024,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": ""
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "Deserto Ocidental",
+        "background": {
+          "src": "systems/reverend-insanity/assets/maps/04_deserto_ocidental.png"
+        }
+      }
+    ],
+    "thumb": "systems/reverend-insanity/assets/maps/04_deserto_ocidental.png",
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "reverend-insanity": {
+        "atlasScene": "04_deserto_ocidental"
+      }
+    },
+    "notes": [],
+    "tokens": [],
+    "_stats": {
+      "coreVersion": "14.368",
+      "systemId": "reverend-insanity",
+      "systemVersion": "1.1.0"
+    }
+  },
+  {
+    "_id": "5aa6e1c8b5f50a2a",
+    "name": "Mar Oriental",
+    "active": false,
+    "navigation": true,
+    "navOrder": 4,
+    "width": 1536,
+    "height": 1024,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": ""
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "Mar Oriental",
+        "background": {
+          "src": "systems/reverend-insanity/assets/maps/05_mar_oriental.png"
+        }
+      }
+    ],
+    "thumb": "systems/reverend-insanity/assets/maps/05_mar_oriental.png",
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "reverend-insanity": {
+        "atlasScene": "05_mar_oriental"
+      }
+    },
+    "notes": [],
+    "tokens": [],
+    "_stats": {
+      "coreVersion": "14.368",
+      "systemId": "reverend-insanity",
+      "systemVersion": "1.1.0"
+    }
+  },
+  {
+    "_id": "eb9a2d80b6565be8",
+    "name": "Continente Central",
+    "active": false,
+    "navigation": true,
+    "navOrder": 5,
+    "width": 1536,
+    "height": 1024,
+    "padding": 0,
+    "grid": {
+      "type": 0,
+      "size": 100,
+      "distance": 1,
+      "units": ""
+    },
+    "tokenVision": false,
+    "fog": {
+      "mode": 0
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": true
+      }
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+      {
+        "_id": "defaultLevel0000",
+        "name": "Continente Central",
+        "background": {
+          "src": "systems/reverend-insanity/assets/maps/06_continente_central.png"
+        }
+      }
+    ],
+    "thumb": "systems/reverend-insanity/assets/maps/06_continente_central.png",
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "reverend-insanity": {
+        "atlasScene": "06_continente_central"
+      }
+    },
+    "notes": [],
+    "tokens": [],
+    "_stats": {
+      "coreVersion": "14.368",
+      "systemId": "reverend-insanity",
+      "systemVersion": "1.1.0"
+    }
+  }
+]
