@@ -4,7 +4,17 @@ Version 1.4.0 provides Portuguese and English rules, sheets, compendiums, and ma
 
 ## Installation and language
 
-Close your world and extract the `reverend-insanity` folder from the distribution ZIP into your Foundry user data folder's `Data/systems` directory. Back up an existing installation before replacing it. Restart Foundry and create a world using Reverend Insanity RPG.
+Install from **Game Systems → Install System → Manifest URL**:
+
+```
+https://github.com/M0rdomo/reverend-insanity/releases/latest/download/system.json
+```
+
+The stable manifest also enables updates through Foundry. For manual installation, create `Data/systems/reverend-insanity` and extract the release ZIP contents into that folder.
+
+**Livros / Books:** [Portuguese and English collection on Google Drive](https://drive.google.com/drive/folders/18eBUN9leE8PTJjJ9V4rL2NMhlH2bIbfj).
+
+**Português:** Em Sistemas de jogo → Instalar sistema, cole a URL do manifesto acima. Escolha português ou inglês ao entrar no mundo como mestre pela primeira vez.
 
 On the active GM's first entry, choose **Português (Brasil)** or **English**. Closing the prompt leaves the choice pending. You can change it later in **Configure Settings → Reverend Insanity RPG → Idioma do RPG / RPG language** and reload the world. This is a shared world setting; it does not change Foundry's own interface language or the language of third-party modules.
 
